@@ -6,17 +6,17 @@ public class Player {
     // constructor
     public Player(String name, State piece) {
         this.name = name;
-        this.piece = piece;
+        this.pieceColor = piece;
         this.score = 0;
     }
 
     // getters
-    public State getName() {
+    public String getName() {
         return this.name;
     }
 
     public State getPiece() {
-        return this.piece;
+        return this.pieceColor;
     }
 
     public int getScore() {
